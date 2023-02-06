@@ -149,11 +149,6 @@ typedef struct{
 	volatile uint32_t MAPR2;
 }AFIO_TypeDef;
 
-//-*-*-*-*-*-*-*-*-*-*-*-
-//Peripheral register TIMERS 2-->5:
-//-*-*-*-*-*-*-*-*-*-*-*
-
-
 
 //Timer1 and timer8
 typedef struct
@@ -179,6 +174,36 @@ typedef struct
 	volatile uint32_t TIMx_DCR;  
 	volatile uint32_t TIMx_DMAR;
 }TIMER1_8_Typedef_t;
+
+//-*-*-*-*-*-*-*-*-*-*-*-
+//Peripheral register TIMERS 2-->5:
+//-*-*-*-*-*-*-*-*-*-*-*
+
+typedef	struct{
+	volatile uint32_t TIMx_CR1;
+	volatile uint32_t TIMx_CR2;
+	volatile uint32_t TIMx_SMCR;
+	volatile uint32_t TIMx_DIER;
+	volatile uint32_t TIMx_SR;
+	volatile uint32_t TIMx_EGR;
+	volatile uint32_t TIMx_CCMR1;
+	volatile uint32_t TIMx_CCMR2;
+	volatile uint32_t TIMx_CCMR2;
+	volatile uint32_t TIMx_CCER;
+	volatile uint32_t TIMx_CNT;
+	volatile uint32_t TIMx_PSC;
+	volatile uint32_t TIMx_ARR;
+	uint32_t 		  RESERVED0;
+	volatile uint32_t TIMx_CCR1;
+	volatile uint32_t TIMx_CCR2;
+	volatile uint32_t TIMx_CCR3;
+	volatile uint32_t TIMx_CCR4;
+	uint32_t 		  RESERVED0;
+	volatile uint32_t TIMx_DCR;
+	volatile uint32_t TIMx_DMAR;
+
+}TIM2t5_TypeDef_t;
+
 
 
 //============================================================================================
