@@ -204,6 +204,26 @@ typedef	struct{
 
 }TIM2t5_TypeDef_t;
 
+//-*-*-*-*-*-*-*-*-*-*-*-
+//Peripheral register TIMERS 6 and 7:
+//-*-*-*-*-*-*-*-*-*-*-*
+
+typedef struct
+{
+	volatile uint32_t TIMx_CR1;
+	volatile uint32_t TIMx_CR2;
+	uint32_t 		  reserved;
+	volatile uint32_t TIMx_DIER;
+	volatile uint32_t TIMx_SR;
+	volatile uint32_t TIMx_EGR;
+	uint32_t         reserved;
+	uint32_t         reserved;
+	uint32_t         reserved;
+	volatile uint32_t TIMx_CNT;
+	volatile uint32_t TIMx_PSC;
+	volatile uint32_t TIMx_ARR;
+}TIMER6_7_Typedef_t;
+
 
 
 //============================================================================================
