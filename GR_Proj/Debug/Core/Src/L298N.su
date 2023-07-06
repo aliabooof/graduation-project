@@ -1,0 +1,4 @@
+../Core/Src/L298N.c:19:13:L298N_SetMotorPinState	16	static
+../Core/Src/L298N.c:40:6:L298N_Init	16	static
+../Core/Src/L298N.c:127:6:L298N_SetMotorSpeed	24	static
+../Core/Src/L298N.c:156:6:L298N_SetMotorDirection	16	static
