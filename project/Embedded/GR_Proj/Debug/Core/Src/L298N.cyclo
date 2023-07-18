@@ -1,0 +1,4 @@
+L298N.c:19:13:L298N_SetMotorPinState	1
+L298N.c:40:6:L298N_Init	1
+L298N.c:127:6:L298N_SetMotorSpeed	9
+L298N.c:156:6:L298N_SetMotorDirection	9
