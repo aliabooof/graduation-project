@@ -5,7 +5,7 @@ The Autonomous Vehicle Control System is an advanced project designed to develop
 
 # Requirements:
 
-#1 STM32F103C8T6 Microcontroller:
+# 1 STM32F103C8T6 Microcontroller:
 
 Implement motor control algorithms to enable precise speed and direction control.
 Integrate with the Raspberry Pi via UART for seamless communication.
