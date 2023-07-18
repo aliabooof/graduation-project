@@ -50,6 +50,9 @@ Employ machine learning algorithms to match faces against a database of authoriz
 Implement a secure authentication mechanism to grant access only to authorized users.
 Communicate with the server for additional processing and verification.
 
+
+
+
 ## Server:
 
 Receive and process images captured by the vehicle's camera.
@@ -63,4 +66,25 @@ Integrate with external services like Twilio for SMS notifications.
 Interface with the Twilio API to send SMS notifications to the car owner in the event of unauthorized access attempts.
 Provide a secure and reliable communication channel for alerting the car owner.
 Implement error handling and retry mechanisms for message delivery assurance.
+
+# Videos of the project.
+
+## Worng person
+https://github.com/aliabooof/graduation-project/assets/62174374/7270cf0c-65ea-4380-9033-4c6400169cfc
+
+
+## Right person
+https://github.com/aliabooof/graduation-project/assets/62174374/21db6166-8d43-407b-a248-48f64af1fd79
+
+
+## Line follower model
+https://github.com/aliabooof/graduation-project/assets/62174374/c638c4c5-a6e8-4000-bc07-c1aab402dd8a
+
+## Car 
+https://github.com/aliabooof/graduation-project/assets/62174374/d501d961-4ec5-4660-8667-cce9bf26c828
+
+
+https://github.com/aliabooof/graduation-project/assets/62174374/edc85ba0-8a72-4b2c-9503-a010c93f19b6
+
+
 
