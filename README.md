@@ -1,7 +1,7 @@
 # Autonomous Vehicle Control System with STM32F103C8T6 Microcontroller and Raspberry Pi Integration
 
-Description:
-The Autonomous Vehicle Control System is an advanced project designed to develop a self-driving car prototype. The system combines the power and flexibility of the STM32F103C8T6 microcontroller and Raspberry Pi integration to achieve autonomous navigation, obstacle detection, temperature monitoring, and robust security features. By leveraging a combination of sensors, including an ultrasonic sensor, temperature sensor, and a camera, the system ensures safe and efficient operation. Additionally, facial recognition technology enhances security by allowing only authorized individuals to access and operate the vehicle.
+# Description:
+This project focuses on the development of a self-driving car system that utilizes the STM32F103C8T6 microcontroller for motor control, along with various sensors and communication modules. The system incorporates a line follower model running on a Raspberry Pi, which captures frames of the line and performs image processing to determine the appropriate driving actions. Additionally, security measures are implemented using facial recognition and communication with a server.
 
 # Requirements:
 
